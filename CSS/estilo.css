@@ -59,7 +59,6 @@ a {
 }
 
 .fondo {
-    display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
@@ -69,7 +68,13 @@ a {
 }
 
 .texto {
-    position: relative;
+    position: absolute;
     top:20%;
-    background-color: blue;
+    left: 20%;
+    bottom: 50%;
+    border-left: 2%;
+    border-color: red;
+    border-width: 2%;
+    width: fit-content;
+    height: fit-content;
 }
