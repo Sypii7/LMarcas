@@ -1,13 +1,16 @@
 .cabecera {
     background-color: aqua;
 }
+/* estilos barra de navegacion */
+.navbar {
+    display: flex;
+}
 .navbar ul {
     width: 100%;
     list-style: none;
     display: flex;
     justify-content: flex-end;
     background-color: rgb(209, 0, 2);
-
 }
 
 .navbar li {
@@ -26,8 +29,8 @@
 }
 
 .navbar a:hover {
-    font-weight: bold;
-    border-bottom: 5px solid white;
+    text-shadow: 1px 0 0 currentColor;
+    border-bottom: 4%;
 }
 
 a {
