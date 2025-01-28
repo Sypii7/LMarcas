@@ -30,7 +30,6 @@
 
 .navbar a:hover {
     text-shadow: 1px 0 0 currentColor;
-    border-bottom: 4%;
 }
 
 a {
