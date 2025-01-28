@@ -78,11 +78,9 @@
 .texto {
     position: absolute;
     top:20%;
-    left: 20%;
+    left: 5%;
     bottom: 50%;
-    border-left: 2%;
-    border-color: red;
-    border-width: 2%;
+    border-left: 100%;
     width: fit-content;
     height: fit-content;
 }
