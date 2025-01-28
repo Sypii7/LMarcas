@@ -4,7 +4,16 @@
 /* estilos barra de navegacion */
 .navbar {
     display: flex;
+    align-items: center;
+    background-color: rgb(209, 0, 2);
+    padding: 0 10px;
 }
+
+.logo img {
+    height: 50px; 
+    margin-left: 80px; 
+}
+
 .navbar ul {
     width: 100%;
     list-style: none;
