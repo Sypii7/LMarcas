@@ -83,4 +83,7 @@
     border-left: 100%;
     width: fit-content;
     height: fit-content;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+    font-style: bold;
 }
