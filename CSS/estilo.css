@@ -88,6 +88,7 @@
     left: 5%;
     bottom: 50%;
     border-left: 100%;
+    border-color: crimson;
     width: 80%;
     height: fit-content;
     font-family: Georgia, 'Times New Roman', Times, serif;
