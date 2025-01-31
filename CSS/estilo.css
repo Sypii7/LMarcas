@@ -83,12 +83,12 @@
     overflow: hidden;
 }
 
-.texto {
+.texto p {
     position: absolute;
     top:20%;
     left: 5%;
     bottom: 50%;
-    border-left: 100%;
+    border-left: 5%;
     border-color: crimson;
     width: 80%;
     height: fit-content;
