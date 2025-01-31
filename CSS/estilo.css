@@ -83,19 +83,22 @@
     overflow: hidden;
 }
 
-.texto p {
+.texto {
     position: absolute;
-    top:20%;
+    top: 20%;
     left: 5%;
-    bottom: 50%;
-    border-left: 5%;
-    border-color: crimson;
+    height: auto;
     width: 80%;
-    height: fit-content;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 50px;
-    font-style: bold;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(235, 235, 235);
+    border-left: 10px solid red;
+    padding-left: 2%;
+    text-shadow: 2px 2px 4px #000;
+    margin-right: 15%;
 }
+
 
 .caja_rrss {
     float: right;
