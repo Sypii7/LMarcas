@@ -107,5 +107,7 @@
     position: relative;
     text-align: left;
     background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
 }
 
