@@ -74,12 +74,13 @@
     font-family: sans-serif;
 }
 
-.fondo {
+.fondo img{
     align-items: center;
     justify-content: center;
     position: relative;
     width: 100%;
-    max-height: 300px;
+    max-width: 100%;
+    height: auto;
     overflow: hidden;
 }
 
@@ -90,7 +91,7 @@
     height: auto;
     width: 80%;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
+    font-size: 2.5em;
     font-weight: bold;
     color: rgb(235, 235, 235);
     border-left: 10px solid red;
