@@ -106,8 +106,8 @@
     padding: 1%;
     position: relative;
     text-align: left;
-    background-color: gray;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
