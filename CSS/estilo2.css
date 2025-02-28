@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: rgb(209, 0, 2);
+    padding: 0 10px;
+}
+
+.logo img {
+    height: 50px; 
+    margin-left: 80px; 
+}
+
+.navbar ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(101, 183, 226);
+}
+
+.navbar li {
+    height: 50px;
+    margin-right: 2.5%;
+}
+
+.navbar a {
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    border-bottom: 4px solid transparent;
+}
+
+.navbar a:hover {
+    text-shadow: 1px 0 0 currentColor;
+}
