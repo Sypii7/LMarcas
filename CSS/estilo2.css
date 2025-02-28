@@ -1,12 +1,12 @@
 .navbar {
     display: flex;
     align-items: center;
-    background-color: rgb(209, 0, 2);
+    background-color: rgb(101, 183, 226);
     padding: 0 10px;
 }
 
 .logo img {
-    height: 50px; 
+    height: 2% 
     margin-left: 80px; 
 }
 
