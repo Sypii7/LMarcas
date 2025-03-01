@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/estilo pablo.css">
+    <title>cita previa Pablo</title>
+</head>
+<body>
+    <div class="form-container">
+        <p><span class="required">*</span> Obligatorios | Opcionales: debe rellenar al menos uno 
+            <span class="optional-note">NHC ó DNI. No es necesario que rellene los dos.</span></p>
+
+        <div class="form-group">
+            <label for="nhc">NHC (Número de Historia Clínica) <span style="color: #666;">(opcional)</span></label>
+            <input type="text" id="nhc" name="nhc" placeholder="Ingrese su NHC">
+        </div>
+
+        <div class="form-group">
+            <label for="dni">DNI o Pasaporte <span style="color: #666;">(opcional)</span></label>
+            <input type="text" id="dni" name="dni" placeholder="Ingrese su DNI o Pasaporte">
+        </div>
+
+        <div class="form-group">
+            <label for="clave">Clave de acceso <span class="required">*</span></label>
+            <input type="text" id="clave" name="clave" placeholder="Ingrese su clave de acceso" required>
+        </div>
+
+        <p class="privacy-text">
+            EV MEDICAL MAESTRANZA S.A., como responsable del tratamiento, tratará tus datos personales con la finalidad de gestionar tu petición de cita online. Puedes acceder, rectificar y suprimir tus datos, así como ejercer otros derechos consultando la información adicional y detallada en nuestra <a href="#" style="color: #072B80; text-decoration: underline;">Política de Privacidad</a>.
+        </p>
+
+        <label>
+            <input type="checkbox" id="privacy" name="privacy" required>
+            He leído y acepto las condiciones contenidas en Política de Privacidad sobre el tratamiento de mis datos para gestionar mi cita online.
+        </label>
+
+        <button type="submit">ENTRAR</button>
+    </div>   
+</body>
+</html>
