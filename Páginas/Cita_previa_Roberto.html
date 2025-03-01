@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cita Previa Roberto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .contenedor {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .cabecera, .boton {
+            background-color: #003366;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        .grupo-formulario {
+            margin-bottom: 15px;
+        }
+        .grupo-formulario label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .grupo-formulario input {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        .grupo-formulario input[type="checkbox"] {
+            width: auto;
+        }
+        .texto-formulario {
+            font-size: 12px;
+            color: #666;
+        }
+        .pie {
+            font-size: 12px;
+            color: #666;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .boton {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        .boton:hover {
+            background-color: #005599;
+        }
+    </style>
+</head>
+<body>
+
+<div class="contenedor">
+    <div class="cabecera">
+        <h1>Cita Previa Roberto</h1>
+    </div>
+
+    <p>Para citas de COVID - <strong>Test serológicos IgG IgM</strong> - contáctanos: 
+        <a href="mailto:recepciontellez@cmaestranza.com">recepciontellez@cmaestranza.com</a> o 
+        <strong>91 502 03 01</strong>
+    </p>
+
+    <p>Registro: <a href="#">Paciente existente</a> | <a href="#">Paciente nuevo</a></p>
+
+    <p>Accede a nuestro servicio de Cita Online:</p>
+
+    <form>
+        <div class="grupo-formulario">
+            <label for="nhc">NHC (Número de Historia Clínica) opcional</label>
+            <input type="text" id="nhc" name="nhc" placeholder="Introduce tu NHC">
+        </div>
+        <div class="grupo-formulario">
+            <label for="dni">DNI (NIE o Pasaporte) opcional</label>
+            <input type="text" id="dni" name="dni" placeholder="Introduce tu DNI">
+        </div>
+        <p class="texto-formulario">NHC o DNI. No es necesario rellenar ambos.</p>
+
+        <div class="grupo-formulario">
+            <label for="clave">Clave de acceso <span>*</span></label>
+            <input type="password" id="clave" name="clave" placeholder="Introduce tu clave de acceso" required>
+        </div>
+
+        <div class="grupo-formulario">
+            <input type="checkbox" id="privacidad" name="privacidad" required>
+            <label for="privacidad">He leído y acepto las condiciones contenidas en 
+                <a href="#">Política de Privacidad</a> sobre el tratamiento de mis datos para gestionar mi cita online.
+            </label>
+        </div>
+
+        <button type="submit" class="boton">ENTRAR</button>
+    </form>
+
+    <p class="texto-formulario">
+        EV MEDICAL MAESTRANZA S.A. como responsable del tratamiento tratará tus datos personales 
+        con la finalidad de gestionar tu petición de cita online. Puedes acceder, rectificar y 
+        suprimir tus datos, así como ejercer otros derechos consultando la información adicional 
+        y detallada en nuestra <a href="#">Política de Privacidad</a>.
+    </p>
+
+    <div class="pie">
+        <p>© 2025 Citas Médicas Roberto. Todos los derechos reservados.</p>
+    </div>
+</div>
+
+</body>
+</html>
